@@ -1,9 +1,52 @@
+# ===============================
 # Python
+# ===============================
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
 
 # Virtual Environment
 venv/
+.env/
 
-# OS
+# ===============================
+# Data / Original
+# ===============================
+**/Original/
+data/
+dataset/
+datasets/
+raw_data/
+processed_data/
+
+# ===============================
+# ML / DL artifacts
+# ===============================
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.onnx
+*.safetensors
+
+logs/
+runs/
+wandb/
+mlruns/
+lightning_logs/
+
+# ===============================
+# Cache
+# ===============================
+.cache/
+.cache/huggingface/
+.cache/torch/
+
+# ===============================
+# OS / Editor
+# ===============================
 .DS_Store
+Thumbs.db
+.vscode/
